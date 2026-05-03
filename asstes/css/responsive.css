@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:768px) {
+    .stats-container {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .stat-box:not(:last-child)::after {
+        display: none;
+    }
+
+    .location-card h4::after {
+        display: none;
+    }
+
+    .abs-content {
+        position: unset;
+    }
+
+    .abs-content h1 {
+        font-size: 24px;
+        text-align: center;
+        line-height: 1.1;
+        margin-top: -8px;
+        color: #000;
+        letter-spacing: 2px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: 60vh;
+        object-position: right;
+    }
+
+    .abot-img img {
+        height: 400px;
+    }
+
+    .about-vactor1,
+    .about-vactor2 {
+        display: none;
+    }
+
+    .padding-all {
+        padding: 65px 0px;
+    }
+
+    .about-left-side {
+        margin-top: 19px;
+        padding: 0;
+    }
+
+    .header-all p {
+        margin-top: 30px;
+    }
+
+    .center-page img {
+        height: 45vh;
+    }
+
+    .center-page-content h2 {
+        font-size: 19px;
+    }
+
+    .center-page-content p {
+        font-size: 19px;
+
+    }
+
+    .center-page-content {
+        top: 38px;
+        left: 0px;
+    }
+
+    .center-page-content img {
+        width: 15px;
+    }
+
+    .price-heading h2 {
+        font-size: 18px;
+    }
+
+    .price-heading h5 {
+        font-size: 20px;
+    }
+
+    .bg-price {
+        padding: 30px 0px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .card-price img {
+        padding: 5px 0px;
+    }
+
+    .card-price h5 {
+        font-size: 18px;
+    }
+
+    .text-price p {
+        margin: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .navbar-brand img {
+        width: 55px;
+        object-fit: contain;
+    }
+
+    .life-style-heading h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .life-style-heading h3 {
+        font-size: 18px;
+    }
+
+    .Amenities-left {
+        margin-top: 10px !important;
+        padding: 20px !important;
+    }
+
+
+
+    .Amenities-left h4 {
+        font-size: 15px;
+    }
+
+
+    .tab-btn {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .floor-card img {
+        width: 15px;
+    }
+
+    .floor-card h4 {
+        font-size: 15px;
+    }
+
+    .floor-card ul li p {
+        font-size: 15px;
+
+    }
+
+    .gallery-heading h3 {
+        font-size: 20px;
+    }
+
+    .gallery-heading p {
+        font-size: 15px;
+        margin-bottom: 5px !important;
+    }
+
+
+
+    #gallery-slider .carousel-item img {
+        height: 60vh !important;
+    }
+
+    .location-heading h3 {
+        font-size: 20px;
+        color: #fff;
+        text-align: center !important;
+    }
+
+    .location-page {
+        background: linear-gradient(to bottom, #4B2D36 0%, #4B2D36 27%, #ffffff 15%, #ffffff 100%);
+        margin-top: 30px;
+    }
+
+    .location-card h4 {
+        font-size: 18px;
+    }
+
+    .location-card {
+        margin-top: 20px !important;
+    }
+
+
+
+    .footer-page p {
+        font-size: 13px;
+    }
+
+    .padding-all,
+    .footer-page .padding-all {
+        padding: 30px 0px;
+    }
+
+    .abs-content h1 span {
+        font-size: 23px;
+        margin-top: 6px;
+        display: inline-block;
+        letter-spacing: 2px;
+    }
+
+    .keypoint-text h6 {
+        color: #4B2D36;
+        margin-top: 6px !important;
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        /* font-weight: 600; */
+        gap: 15px;
+    }
+
+    .keypoint-text img {
+        filter: none;
+    }
+
+    .keypoint-text::after {
+        border-color: #000;
+    }
+
+    .price-text h5 {
+        font-size: 22px;
+    }
+
+    .price-text p {
+        font-size: 18px;
+    }
+
+    .typo-text h6 {
+        font-size: 15px;
+    }
+
+    .pricre {
+        background-color: #4B2D36;
+        margin-bottom: 4px;
+    }
+
+    .play-btn {
+        justify-content: center;
+        display: none;
+    }
+
+    .abot-img .about-img-abs {
+        width: 236px;
+        height: 194px;
+        bottom: -12%;
+    }
+
+    .header-all h2 {
+        font-size: 18px;
+    }
+
+    .about-left-side p {
+        font-size: 14px;
+    }
+
+    .about-page-pointer p {
+        font-size: 10px;
+    }
+
+    .hight-form {
+        padding: 17px;
+    }
+
+    .hight-form button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .hight-form-input {
+        padding: 12px;
+    }
+
+    .amenities-card p {
+        font-size: 12px;
+    }
+
+    .location-heading p {
+        color: #fff;
+        text-align: center !important;
+    }
+
+    .location-page .location-map {
+        margin-top: 30px;
+        height: 160px;
+    }
+
+    .location-card img {
+        width: 40px;
+    }
+
+    .location-card ul li {
+        font-style: 11px;
+    }
+
+    .adress {
+        color: #4B2D36 !important;
+        display: inline-block;
+        margin: 17px 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .uner-line,
+    .Amenities-uner-line,
+    .About-uner-line,
+    .Location-uner-line,
+    .gakllery-uner-line,
+    .Typology-uner-line,
+    .Amenities-uner-line {
+        display: none;
+    }
+
+    .life-style-heading p {
+        text-align: center;
+    }
+
+    .hight-form h2 {
+        font-size: 27px;
+    }
+
+    .hight-form-img {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    .scroll-mobile{
+        height: 330px;
+        overflow-y: scroll;
+    }
+
+    .location-page .scroll-mobile{
+        height: 490px;
+    }
+    .typo-text{
+        padding: 10px 20px;
+        height: auto;
+    }
+    .price-text{
+        height: auto;
+    }
+    .abs-high-building{
+        display: none;
+    }
+
+    .price-section .hight-form{
+        display: none;
+    }
+    .top-header{
+        top: -12px;
+    }
+    .Enquery-btn{
+        display: none;
+    }
+}
+
+@media (max-width:1366px) {
+    .uner-line {
+        left: 22%;
+    }
+
+    .Amenities-uner-line {
+        left: 40%;
+    }
+
+    .Typology-uner-line {
+        right: 39%;
+    }
+
+    .gakllery-uner-line {
+        right: 41%;
+    }
+
+    .Location-uner-line {
+        right: 33%;
+    }
+
+    .About-uner-line {
+        left: 31%;
+    }
+}
